@@ -207,6 +207,6 @@ padding-bottom: 7px;
 		margin-bottom: 30px;
 	}
 	.slick-next, .slick-prev{
-		z-index: -1;
+		display: none;
 	}
 }
