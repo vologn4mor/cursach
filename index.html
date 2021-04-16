@@ -17,7 +17,7 @@
 				<img src="images/logo.jpg" alt="">
 			</div>
 				<nav class="header_button">
-						<img src="images/list-white.svg" alt="">
+						<img src="images/list-white.svg" class="mainbtn" alt="">
 					<div class="header_burger">						
 						<div class="header_button"><a href="">Главная</a></div>
 						<div class="header_button"><a href="">Одежда</a></div>
@@ -101,6 +101,11 @@
 		    // dots: true,
 		  });
 		});
+	</script>
+	<script>
+		$(".mainbtn").on('click', function(event) {
+  $(event.currentTarget.parentNode).toggleClass("a selected");
+});
 	</script>		
 </body>
 </html>
