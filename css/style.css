@@ -119,6 +119,9 @@ body{
 	background-color: black;
 	color:white;
 }
+.footer_main{
+	display: contents;
+}
 .footer_logo img{
 	width: 200px;
 	height: 171px;
