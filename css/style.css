@@ -56,7 +56,7 @@ fieldset{
 header{
 	background-color: black;
 }
-a{
+.header_button a{
 	color: white;
 	text-decoration: none;
 	border: 2px solid black;
@@ -119,18 +119,35 @@ body{
 	background-color: black;
 	color:white;
 }
-
+.footer_logo img{
+	width: 178px;
+}
 .header_button>a>span:hover, .header_button>a>strong>span:hover{
 	color: #8f8989;
 	border-bottom: groove;
 }
 .third_container {
 	display: flex;
+	margin-bottom: 200px;
 }
 .slider_text, .slider_photo {
 	margin: 0 auto;
 }
+.footer_container{
+	display: flex;
+	justify-content: space-between;
+}
+.footer_logo{
+	display: flex;
+}
+.footer_logo strong{
+	padding-top: 40px;
+}
 
+.footer_social img{
+	max-width: 50px;
+	background-color: white
+}
 @media (max-width: 1600px){
 	.main_container{
 		margin-left: 10px;
@@ -210,7 +227,21 @@ padding-bottom: 7px;
 	.first_block{
 		margin-bottom: 30px;
 	}
-	.slick-next, .slick-prev{
-		display: none;
+	.slick-next {
+		right: 15px;
+		z-index: -1;
+	}
+	.slick-prev {
+		left: 10px;
+	}
+	.footer_logo {
+		height: 75%;
+	}
+	.footer_social {
+		display: flex;
+		flex-direction: column;
+	}
+	.footer_social a{
+		margin: 0 auto;
 	}
 }
