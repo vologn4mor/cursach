@@ -120,7 +120,8 @@ body{
 	color:white;
 }
 .footer_logo img{
-	width: 178px;
+	width: 200px;
+	height: 171px;
 }
 .header_button>a>span:hover, .header_button>a>strong>span:hover{
 	color: #8f8989;
@@ -235,13 +236,21 @@ padding-bottom: 7px;
 		left: 10px;
 	}
 	.footer_logo {
-		height: 75%;
+		display: flex;
+		justify-content: space-around;
 	}
 	.footer_social {
 		display: flex;
 		flex-direction: column;
 	}
+	.footer_main{
+		display: flex;
+		justify-content: space-around;
+	}
 	.footer_social a{
 		margin: 0 auto;
+	}
+	.footer_container{
+		display: block;
 	}
 }
