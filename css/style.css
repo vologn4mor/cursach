@@ -502,6 +502,7 @@ footer{
 @media (max-width: 800px){
 	body{
 		position: absolute;
+		overflow-x: hidden;
 	}
 	h1 {
     font-size: 40px;
